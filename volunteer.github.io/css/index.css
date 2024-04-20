@@ -1,0 +1,158 @@
+
+/* 轮播图 */
+.banner {
+  margin: 50px;
+  height: 420px;
+  background-color: #f3f5f7;
+}
+.banner .wrapper {
+  height: 420px;
+}
+.banner .left {
+  float: left;
+  padding: 0 20px;
+  width: 250px;
+  height: 420px;
+  background-color: rgba(10, 28, 167, 0.562);
+  /* 行高属于文字属性 子集可以继承父集 */
+  line-height: 44px;
+  color: #fff;
+}
+.banner .left p{
+  text-align: center;
+}
+.banner .left .wen{
+  font-size: 26px;
+  margin-top: 30px;
+}
+.banner .left .quan{
+  font-size: 18px;
+  margin-top:15px;  
+}
+.banner .left .can{
+  margin-top: 40px;
+}
+.banner .left .wo{
+  margin: 40px;
+  font-size: 30px;
+  color: rgba(10, 28, 167, 0.562);
+  background-color: #fff;
+}
+.banner .left span {
+  float: right;
+}
+.banner .left a {
+  font-size: 14px;
+  color: #f3f5f7;
+}
+.banner .left a:hover {
+  color: rgb(64, 186, 234);
+}
+.banner .right{
+  float: right;
+  width: 950px;
+  height: 420px;
+}
+.banner .right img{
+  width: 950px;
+  height: 420px;
+}
+.yi{
+  width: 1200px;
+  margin: auto
+}
+.big {
+  margin: 50px;
+  height: 420px;
+  background-color: #f3f5f7;
+}
+.big .wrapper {
+  height: 420px;
+  background-image: url(../img/1png.jpg);
+}
+.big .left {
+  float: left;
+  padding: 0 20px;
+  width: 400px;
+  height: 420px;
+  background-color: #fff;
+  /* 行高属于文字属性 子集可以继承父集 */
+  line-height: 44px;
+  color: #000000;
+}
+.big .left p{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 39px;
+}
+.big .left li{
+  height: 50px;
+  padding: 0 20px 0 40px;
+  transition: background-color 0.25s;
+  cursor: pointer;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.big .left li span{
+  float: right;
+  color: skyblue;
+  font-weight: 400;
+}
+.big .right{
+  float: right;
+  width: 800px;
+  height: 420px;
+}
+.big .right img{
+  width:800px;
+  height: 420px;
+}
+.box {
+  margin-top: 35px;
+}
+.box .title {
+  height: 40px;
+  /* background-color: #d9b1d6; */
+}
+.box .title h2 {
+  float: left;
+  font-size: 20px;
+  color: #494949;
+  font-weight: 1000;
+}
+.box .title a {
+  float: right;
+  margin-right: 30px;
+  font-size: 12px;
+  color: #a5a5a5;
+}
+.box .content li {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 228px;
+  height: 270px;
+  /* background-color: palegreen; */
+}
+.box .content li:nth-child(5n) {
+  margin-right: 0;
+}
+.box .content li img{
+  width: 150px;
+  height: 150px;
+}
+.box .content li h3 {
+  padding: 20px;
+  font-size: 13px;
+  color: #050505;
+}
+.box .content li p {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+.box .content li span {
+  font-size: 16px;
+  color: orange;
+}
+

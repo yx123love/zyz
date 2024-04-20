@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* 内减模式 */
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix ::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+
+body {
+  background-color: #f3f5f7;
+}
+/* 版心 */
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+.header {
+  height: 42px;
+  background-color: rgb(197, 202, 197);
+  /* margin-top: 30px;
+  margin-bottom: 30px; */
+  margin: 30px auto;
+}
+h1 {
+  float: left;
+}
+.nav {
+  float: left;
+  margin-left: 50px;
+  height: 42px;
+  /* background-color: aqua; */
+}
+.nav li {
+  float: left;
+  margin-right: 26px;
+}
+.nav li a {
+  display: block;
+  padding: 0 9px;
+  height: 42px;
+  line-height: 42px;
+  /* border-bottom: 2px solid skyblue; */
+  font-size: 18px;
+  color: black;
+}
+.nav li a:hover {
+  border-bottom: 2px solid skyblue;
+}
+.ss {
+  float: left;
+  margin-left: 59px;
+  width: 300px;
+  height: 42px;
+  border: 1px solid skyblue;
+}
+.ss input {
+  float: left;
+  padding-left: 20px;
+  width: 250px;
+  height: 38px;
+  border: 0;
+}
+.ss input ::placeholder {
+  font-size: 14px;
+  color: #bfbfbf;
+}
+.ss button {
+  float: left;
+  width: 42px;
+  height: 42px;
+  background-image: url(../img/09420962x12e7hqs7xs7ds.png.icon.png);
+  border: 0;
+}
+.user {
+  float: right;
+  margin-right: 35px;
+  height: 30px;
+}
+.user li {
+  float: right;
+  margin-right: 26px;
+}
+.user li a {
+  display: block;
+  padding: 0 9px;
+  height: 30px;
+  line-height: 30px;
+  /* border-bottom: 2px solid skyblue; */
+  font-size: 18px;
+  color: black;
+}
+
+/* 图片重置居中 middle 居中 */
+.user img {
+  vertical-align: middle;
+}
+/* 版权 */
+.footer {
+  padding-top: 20px;
+  background-color: #f0a93e;
+  height: 350px;
+}
+
+.footer {
+  height: 200px;
+}
+.footer dl {
+  float: left;
+  margin-left: 120px;
+  font-size: 20px;
+  color: #050505;
+}
+.footer dd {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 15px;
+}
+.footer a {
+  color: rgb(3, 112, 245);
+}
+ul{
+  list-style: none;
+}
