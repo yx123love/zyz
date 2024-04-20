@@ -4,32 +4,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>志愿者服务</title>
+    <title>志愿者服务平台</title>
+    <link rel="stylesheet" href="./css/comment.css">
     <style>
-        div{
-            text-align: center;
-            font-size: 200px;
-            font-weight: 500;
+
+        .main {
+            margin: 20px;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .main-item {
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .main-item h2 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .main-item p {
+            line-height: 1.5;
+        }
+                progress {
+            width: 75%;
+            /* Adjust the width as desired */
+            height: 20px;
+            /* Adjust the height as desired */
+            appearance: none;
+            /* Remove default styling in some browsers */
+            border: none;
+            border-radius: 5px;
+        }
+
+        progress::-webkit-progress-bar {
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+
+        progress::-webkit-progress-value {
+            background-color: #007BFF;
+            /* Change this to your desired progress color */
+        }
+
+        progress::-moz-progress-bar {
+            background-color: #007BFF;
+            /* Change this to your desired progress color */
+        }
+
+        a{
+            color: #000;
         }
     </style>
 </head>
 
 <body>
-    <h1><button onclick="location.href='index.html'">返回首页</button>
-</h1>
-    <ol>
-        <li>志愿者认识与奖励：提供志愿者服务时长认证，记录和积累志愿者服务时长，并获得相关认证证书和奖励。</li>
-        <li>设立志愿者星级评定制度：根据志愿者的参与程度和贡献给予相当于的等级或者评分。</li>
-        <li>在线培训与资源库：提供在线培训课程与视频或者文字。创立资源库，收集和分享有用的志愿者服务资料，模板和工具，还有心得啥的。</li>
-        <li>礼品兑换，服务兑换：志愿者做活动得到的积分，可以兑换礼品啥的</li>
-        <li>媒体报道</li>
-        <li>政策文件</li>
-        <li>志愿者签到</li>
-    </ol>
 
-    <div>         
-        技术人员正在加工
-    </div>
+        <div class="header wrapper">
+            <h1>
+                <a href="#"><img src="" alt=""></a>
+            </h1>
+            <div class="nav">
+                <ul>
+                    <li><a href="./index.html">首页咨询</a></li>
+                    <li><a href="./liulan.html">项目浏览</a></li>
+                    <li><a href="./faqi.html">项目发起</a></li>
+                    <li><a href="./luntan.html">论坛交流</a></li>
+                    <li><a href="./guanyu.html">关于我们</a></li>
+                </ul>
+            </div>
+            <div class="ss">
+                <input type="text" placeholder="请输入关键词">
+                <button></button>
+            </div>
+            <div class="user">
+                <ul>
+                    <li><a href="#">注册</a></li>
+                    <li><a href="#">登录</a></li>
+                </ul>
+            </div>
+        </div>
+       <div>
+        <main class="main">
+            <div class="main-item">
+                <h2>志愿者证</h2>
+                <p>奉献友爱互助进步</p>
+            </div>
+            <div class="main-item">
+                <h2>公益履历</h2>
+                <p>做最美的自己</p>
+            </div>
+            <div class="main-item">
+                <h2>志愿服务记录证明</h2>
+                <p>志愿者定制</p>
+            </div>
+            <div class="main-item">
+                <h2>志愿服务记录证明</h2>
+                <p>志愿者定制</p>
+            </div>
+            <div class="main-item">
+                <h2>志愿服务奖励兑换</h2>
+                <p>奖品区</p>
+            </div>
+            <div class="main-item">
+                <a href="#">
+                <h2>志愿服务签到</h2>
+                <p>志愿者时长 <progress value="75" max="100"></progress></p>
+                </a>
+            </div>
+            <!-- Add more main items as needed -->
+        </main>
+       </div>
+
+        <div class="footer">
+            <div class="wrapper">
+                <div>
+                    <dl>
+                        <dt>联盟项目</dt>
+                        <dd><a href="#">环境保护</a></dd>
+                        <dd><a href="#">社区建设</a></dd>
+                        <dd><a href="#">人文教育</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>关于</dt>
+                        <dd><a href="#">关于联盟</a></dd>
+                        <dd><a href="#">联系我们</a></dd>
+                        <dd><a href="#">帮助中心</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>服务</dt>
+                        <dd><a href="#">百度贴吧</a></dd>
+                        <dd><a href="#">QQ空间</a></dd>
+                        <dd><a href="#">新浪微博</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
